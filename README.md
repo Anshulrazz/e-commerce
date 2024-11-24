@@ -75,10 +75,13 @@ cd ecommerce-mern
    ```
 3. Create a `.env` file in the `backend` directory with the following content:
    ```
-   MONGO_URI=your_mongo_connection_string
-   CASHFREE_APP_ID=your_cashfree_app_id
-   CASHFREE_SECRET_KEY=your_cashfree_secret_key
-   JWT_SECRET=your_jwt_secret
+   CLIENT_ID=TEST
+   CLIENT_SECRET=cfsk_ma_test_
+   MONGO_URI=mongodb://localhost:27017/
+   JWT_SECRET=asdfqwerzxcvasdfqwer
+   C_N= {Cloud name for cloudnary}
+   C_K={APi key for cloudnary}
+   C_S={API Secrate for cloudnary]
    ```
 4. Start the backend server:
    ```bash
@@ -123,6 +126,7 @@ ecommerce-mern/
 │   └── package.json      # Frontend dependencies and scripts
 ├── backend/              # Node.js backend
 │   ├── controllers/      # API controllers for handling business logic
+|   ├── mid/              # for auth middleware
 │   ├── models/           # MongoDB models (Products, Orders, Users)
 │   ├── routes/           # API route definitions
 │   ├── .env              # Environment variables (Mongo URI, Cashfree keys, etc.)
@@ -136,10 +140,6 @@ ecommerce-mern/
 ## Payment Gateway Integration
 
 The application integrates **Cashfree** for payment processing. To enable payment functionality, make sure to add your **Cashfree App ID** and **Secret Key** in the `.env` file:
-```
-CASHFREE_APP_ID=your_cashfree_app_id
-CASHFREE_SECRET_KEY=your_cashfree_secret_key
-```
 
 You can use **Cashfree's sandbox environment** for testing before going live.
 
@@ -164,7 +164,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## Contact
 
-For any questions or inquiries, feel free to open an issue on GitHub or contact us directly at [email@example.com](mailto:email@example.com).
+For any questions or inquiries, feel free to open an issue on GitHub or contact us directly at [braj70901@gmail.com](mailto:braj70901@gmail.com).
 
 ---
 
