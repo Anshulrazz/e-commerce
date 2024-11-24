@@ -161,7 +161,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## Contact
 
 For any questions or inquiries, feel free to open an issue on GitHub or contact us directly at [braj70901@gmail.com](mailto:braj70901@gmail.com).
-
----
-
-This revised README should provide a clear and professional guide for anyone looking to understand, install, or contribute to your E-Commerce application.
