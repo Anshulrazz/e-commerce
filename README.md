@@ -1,7 +1,3 @@
-Here's a more polished and professional version of your README, with clear structure and added details to make it more engaging and comprehensive:
-
----
-
 # E-Commerce Website (MERN Stack)
 
 Welcome to the E-Commerce Website built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). This full-featured application allows users to seamlessly shop online, while offering an admin portal for managing products and orders. The site integrates a secure payment gateway for transaction processing and includes essential e-commerce functionality.
